@@ -1,7 +1,9 @@
+import java.util.Scanner;
 
 public class BubbleGame {
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Yo what up dogg");
 
@@ -9,8 +11,12 @@ public class BubbleGame {
             System.out.println("Bud...Weis...Errrr");
         }
 
-        int num = 5;
-        int numTwo = 10;
+        int num;
+        int numTwo;
+
+        System.out.println("Please enter two whole numbers.");
+        num = scan.nextInt();
+        numTwo = scan.nextInt();
 
 
         int numbers = addNumbers(num, numTwo);
