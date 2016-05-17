@@ -21,6 +21,7 @@ public class BubbleGame {
 
         int numbers = addNumbers(num, numTwo);
         System.out.println(numbers);
+        System.out.println("Congrats! You added some numbers.");
 
     }
 
