@@ -8,7 +8,7 @@ public class BubbleGame {
         System.out.println("Yo what up dogg");
 
         for(int i = 1; i < 5; i++) {
-            System.out.println("Bud...Weis...Errrr");
+            System.out.println("Bud...Weisss...Errrr");
         }
 
         int num;
@@ -37,7 +37,7 @@ public class BubbleGame {
             System.out.println("Congrats! You subtracted some numbers.");
         }
 
-
+        System.out.println("And Another One Bites the Dust!!");
     }
 
     static int addNumbers( int num1, int num2) {
